@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Orlando Azuara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="_Logo-Portfolio2.jpg">
+  </head>
+
+  <body class = "container">
+
+    <!-- nav bar -->
+
+    <div class="menu">
+      <div class="menu-wrap">
+        <a href="https://p1mccu3a7783agtncv9ftq-on.drv.tw/Portfolio%20Website%203.2/">
+        <img src="_Logo-Portfolio2.jpg" class="logo-img" alt="Logo">
+        </a>
+        <input type="checkbox" id="checkbox">
+        <nav>
+          <ul>
+            <li><a href="#projects-nav">Projects</a></li>
+            <li><a href="#me-nav">About me</a></li>
+            <li><a href="#contact-nav">Contact me</a></li>
+          </ul>
+        </nav>
+        <label for="checkbox">
+          <img src="menu-icon.png" class="fa fa-bars menu-icon" alt="menu icon">
+        </label>
+      </div>
+    </div>
+  
+    
+    <!-- page content -->
+    
+    <div class="content">
+
+      <!-- header -->
+      <header class = "header">
+          <img id="heroimg" src="landing-img1.png" alt="This is the hero image">
+      </header>
+
+      <!-- main content -->
+      <main class = "main">
+
+        <!-- projects -->
+        <div id="projects" class="main-gen">
+          <div class="project-header">
+            <a id="projects-nav"> 
+              <h1 id="proj-h1">Projects</h1>
+            </a> 
+          </div>
+          <div class="project-content">
+            <div id="proj-cont-cover">
+              <h1 id="proj-text">Currently working on some awesome projects...</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- about me -->
+        <div id="about-me" class="main-gen">
+
+          <div class="about-header">
+            <a id="me-nav">
+              <h1>About me</h1>
+            </a>
+          </div>
+
+          <div class="about-info">
+            <img id="prof-img1" src="mypfp.jpg" alt="This is the profile picture">
+            <p id="about-name1">Orlando Azuara</p>
+            <p class="about-text">I am currently a student at Swarthmore College, and a prospect Computer Science major.
+              I specialize in front end web development with a focus on static landing pages, and utilize various layouts such as Grid and Flex to produce flexible,
+              robust, and responsive web pages. In addition to this, I am knowledgeable in both design theory and SEO marketing, creating attractive, modern designs, and optimizing
+              SEO results to ensure the best visibility for your site.
+            </p>
+            <div class="about-logo-container">
+              <a href="https://www.linkedin.com/in/orlando-yahir-azuara-hernandez-174221182/" target="_blank">
+                <img class="about-logo" src="linkedin-logo.png" alt="LinkedIn logo">
+              </a>
+              <a href="https://github.com/orlandoazu0709" target="_blank">
+                <img class="about-logo" src="github-logo.png" alt="Github logo">
+              </a>
+              <p id="about-name2">- Orlando Azuara</p>
+            </div>
+          </div>
+
+          <div id="prof-img2" class="main-gen">
+            <img id="pfp" src="mypfp.jpg" alt="This is the profile picture">
+          </div> 
+
+        </div>
+
+        <!-- contact me -->
+        <div id="contact-info" class="main-gen">
+
+          <div class="contact-header">
+            <a id="contact-nav">
+              <h1>Contact me</h1>
+            </a>
+          </div>
+
+          <div class="contact-content">
+
+            <div>
+              <h2>Send me a message!</h2>
+            </div>
+
+            <div class="contact-div">
+              <form  class="form" action="https://formspree.io/f/mpzkrobr" method="POST">
+                <label class="form-child" for="email">Email</label>
+                <input class="form-child input" type="text" id="email" name="_replyto" placeholder="Your email" required>
+                <label class="form-child" for="subject">Subject</label>
+                <input class="form-child input" type="text" id="subject" name="subject" placeholder="Subject" required>
+                <label class="form-child" for="message">Message</label>
+                <textarea class="form-child input" id="message" name="message" placeholder="Type your message here..." required></textarea>
+                <input class="form-child input" type="submit" value="submit" id="submit">
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class = "footer">
+        <p>Copyright © 2021 Orlando Azuara</p>
+      </footer>
+    </div>
+  </body>
+</html>
