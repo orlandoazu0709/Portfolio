@@ -575,6 +575,11 @@ h2 {
   min-width: 300px;
 }
 
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
 #message {
   width: 50%;
   height: 120px;
