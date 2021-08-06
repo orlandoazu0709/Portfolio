@@ -568,6 +568,8 @@ h2 {
   background-color: transparent;
   color: white;
   border-color: white;
+  box-shadow: none;
+  border-style: solid;
   border-radius: 8px;
   width: 45%;
   height: 40px;
