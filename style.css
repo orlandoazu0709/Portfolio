@@ -567,6 +567,7 @@ h2 {
 .input {
   background-color: transparent;
   color: white;
+  border-color: white;
   border-radius: 8px;
   width: 45%;
   height: 40px;
