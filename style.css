@@ -586,6 +586,11 @@ h2 {
   width: 50%;
   height: 120px;
   min-width: 340px;
+  min-height: 100px;
+  max-width: 500px;
+  max-height: 250px;
+  border-color: white;
+  border-width: 2px;
 }
 
 #submit {
