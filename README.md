@@ -1,2 +1,2 @@
 # Portfolio-Website
-This is my portfolio website.
+A fun, minimalistic experiment using (almost) pure CSS for a fully responsive portfolio website.
